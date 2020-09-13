@@ -1,0 +1,36 @@
+# Caribou3d Research Board Contribution Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+menu.cpu=Processor
+
+########################################
+########## Caribou3d Einsy RAMBo ###########
+########################################
+caribou3d_einsy_rambo.name=Caribou3dResearch Einsy RAMBo
+caribou3d_einsy_rambo.vid.0=0x27b1
+caribou3d_einsy_rambo.pid.0=0x0001
+
+caribou3d_einsy_rambo.upload.tool=avrdude
+caribou3d_einsy_rambo.upload.protocol=wiring
+caribou3d_einsy_rambo.upload.maximum_size=253952
+caribou3d_einsy_rambo.upload.speed=115200
+
+caribou3d_einsy_rambo.bootloader.tool=avrdude
+caribou3d_einsy_rambo.bootloader.low_fuses=0xFF
+caribou3d_einsy_rambo.bootloader.high_fuses=0xD8
+caribou3d_einsy_rambo.bootloader.extended_fuses=0xFD
+caribou3d_einsy_rambo.bootloader.path=caribou3d_einsy_rambo
+caribou3d_einsy_rambo.bootloader.file=caribou3d_einsy_rambo/stk500boot_einsy_rambo_caribou_mega2560
+caribou3d_einsy_rambo.bootloader.unlock_bits=0x3F
+caribou3d_einsy_rambo.bootloader.lock_bits=0x0F
+
+caribou3d_einsy_rambo.build.mcu=atmega2560
+caribou3d_einsy_rambo.build.f_cpu=16000000L
+caribou3d_einsy_rambo.build.board=AVR_CARIBOU3D_EINSY_RAMBO
+caribou3d_einsy_rambo.build.core=caribou3d_einsy_rambo
+caribou3d_einsy_rambo.build.variant=caribou3d_einsy_rambo
+caribou3d_einsy_rambo.compiler.c.elf.extra_flags=-Wl,-u,vfprintf -lprintf_flt -lm

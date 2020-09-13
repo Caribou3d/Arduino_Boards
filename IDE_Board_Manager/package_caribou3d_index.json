@@ -1,0 +1,35 @@
+{
+  "packages": [
+    {
+      "name": "Caribou3d",
+      "maintainer": "Caribou3d Research",
+      "websiteURL": "https://www.caribou3d.com/",
+      "email": "support@caribou3d.com",
+      "help": {
+        "online": "https://github.com/Caribou3d/Arduino_Boards"
+      },
+      "platforms": [
+        {
+          "name": "Caribou3d Research AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Caribou3d3d/Arduino_Boards/master/IDE_Board_Manager/caribou3dboards-1.0.0.tar.bz2",
+          "archiveFileName": "caribou3dboards-1.0.0.tar.bz2",
+          "checksum": "SHA-256:d1d5ed85da7a9e0d0f565d8a40c0ef757fd3ffa4ecf741483633d0856f463297",
+          "size": "101978",
+          "help": {
+            "online": "https://github.com/Caribou3d/Arduino_Boards/blob/master/IDE_Board_Manager/caribou3dboards-1.0.0.md"
+          },
+          "boards": [
+            {
+              "name": "Caribou3d MK3/MK3S Einsy RAMBo"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
