@@ -24,7 +24,7 @@ caribou3d_einsy_rambo.bootloader.low_fuses=0xFF
 caribou3d_einsy_rambo.bootloader.high_fuses=0xD8
 caribou3d_einsy_rambo.bootloader.extended_fuses=0xFD
 caribou3d_einsy_rambo.bootloader.path=caribou3d_einsy_rambo
-caribou3d_einsy_rambo.bootloader.file=caribou3d_einsy_rambo/stk500boot_einsy_rambo_caribou_mega2560
+caribou3d_einsy_rambo.bootloader.file=caribou3d_einsy_rambo/stk500boot_einsy_rambo_caribou_mega2560.hex
 caribou3d_einsy_rambo.bootloader.unlock_bits=0x3F
 caribou3d_einsy_rambo.bootloader.lock_bits=0x0F
 

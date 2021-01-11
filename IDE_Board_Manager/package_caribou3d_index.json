@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Caribou3d/Arduino_Boards/master/IDE_Board_Manager/caribou3dboards-1.0.0.tar.bz2",
           "archiveFileName": "caribou3dboards-1.0.0.tar.bz2",
-          "checksum": "SHA-256:d1d5ed85da7a9e0d0f565d8a40c0ef757fd3ffa4ecf741483633d0856f463297",
-          "size": "101978",
+          "checksum": "SHA-256:c7bafb39d1f8b577dd5f2b8910986b39367e345a2bfc26865c9753193b34f44f",
+          "size": "101814",
           "help": {
             "online": "https://github.com/Caribou3d/Arduino_Boards/blob/master/IDE_Board_Manager/caribou3dboards-1.0.0.md"
           },
